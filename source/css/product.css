@@ -1,0 +1,141 @@
+/* 平台特有创新点 */
+.hg-innovate {
+  background-color: #fff;
+  text-align: center;
+}
+.hg-innovate .container {
+  border-top: 1px solid #ccc;
+}
+.hg-innovate h2 {
+  font-size: 2em;
+  margin: 50px 0;
+}
+.hg-innovate .hg-innovate-item {
+  background-color: #fff;
+}
+@media (max-width: 768px) {
+  .hg-innovate .hg-innovate-item {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-innovate .hg-innovate-item {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .hg-innovate .hg-innovate-item {
+    margin-top: 30px;
+  }
+}
+.hg-innovate .hg-innovate-item h3 {
+  font-size: 1.25em;
+}
+.hg-innovate .hg-innovate-item img {
+  margin: 0 auto;
+}
+.hg-innovate .hg-innovate-item p {
+  text-align: center;
+}
+/* 致力于解决媒体深度融合迫切需求 */
+@media (max-width: 768px) {
+  .hg-need {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 768px) {
+  .hg-need {
+    padding: 30px 0;
+  }
+}
+@media (min-width: 992px) {
+  .hg-need {
+    padding: 40px 0;
+  }
+}
+.hg-need h2 {
+  margin: 0 0 10px;
+  font-size: 1.75em;
+}
+.hg-need .hg-module-item h3 {
+  font-size: 1.5em;
+}
+@media (max-width: 768px) {
+  .hg-need .hg-module-item {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-need .hg-module-item {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .hg-need .hg-module-item {
+    margin-top: 30px;
+  }
+}
+/* 平台整体框架及模块划分开始 */
+@media (max-width: 768px) {
+  .hg-module {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 768px) {
+  .hg-module {
+    padding: 30px 0;
+  }
+}
+@media (min-width: 992px) {
+  .hg-module {
+    padding: 40px 0;
+  }
+}
+.hg-module h2 {
+  margin: 0 0 10px;
+  font-size: 1.75em;
+}
+@media (max-width: 768px) {
+  .hg-module .hg-module-item {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-module .hg-module-item {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .hg-module .hg-module-item {
+    margin-top: 30px;
+  }
+}
+/* 业界评价 */
+.hg-evaluation h2 {
+  margin-top: 60px;
+}
+.hg-evaluation .hg-evaluation-ietm {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 50px 20px;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .hg-evaluation .hg-evaluation-ietm {
+    margin: 20px 10px;
+  }
+}
+@media (min-width: 768px) {
+  .hg-evaluation .hg-evaluation-ietm {
+    margin: 30px 20px;
+  }
+}
+@media (min-width: 992px) {
+  .hg-evaluation .hg-evaluation-ietm {
+    margin: 50px 20px;
+  }
+}
+.hg-evaluation .hg-evaluation-ietm p {
+  text-align: left;
+}

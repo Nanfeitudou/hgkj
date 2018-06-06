@@ -1,0 +1,118 @@
+/* Banner图 */
+.hg-banner-news {
+    height: 500px;
+    background: url(../images/banner_news.jpg) no-repeat center;
+    background-size: cover;
+
+    @media (max-width: 768px){
+
+        height: 180px;
+        
+    }
+
+    @media (min-width: 768px){
+
+        height: 250px;
+        
+    }
+
+    @media (min-width: 992px){
+
+        height: 300px;
+        
+    }
+}
+
+
+/* 联系方式 */
+.hg-news {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    .poo {
+        height: 100%;
+        // width: 100%;
+    }
+    .hg-news-item {
+        margin-top: 10px;
+        padding: 10px;
+        // border: 1px solid #dbdbdb;
+        background-color: #fff;
+
+        h3 {
+            margin: 0 0 10px;
+            font-weight: bold;
+            font-size: 1.25em;
+            a {
+                &:hover {
+                    color: #383b61;
+                }
+            }
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            // line-height: 2.5em;
+            li {
+                height: 2em;
+                line-height: 2em;
+                &:before {
+                    content: '·';
+                    color: #a9a9a9;
+                    margin-right: 4px;
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 0.85em;
+                    color: #333;
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+/* 活动回顾 */
+
+
+.hg-activity {
+
+    background-color: #f7f7f7;
+    @media (max-width:768px) {
+        padding: 20px 0;
+    }
+    @media (min-width:768px) {
+        padding: 30px 0;
+    }
+    @media (min-width:992px) {
+        padding: 40px 0;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.75em;
+    }
+    .hg-activety-item {
+        padding: 10px;
+        border: 1px solid #dbdbdb;
+        background-color: #fff;
+        @media (max-width:768px) {
+            margin-top: 10px;
+        }
+        @media (min-width:768px) {
+            margin-top: 20px;
+        }
+        @media (min-width:992px) {
+            margin-top: 30px;
+        }
+
+        strong {
+            font-size: 1em;
+        }
+
+    }
+}
+ 

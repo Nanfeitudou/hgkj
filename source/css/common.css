@@ -1,0 +1,91 @@
+/* 站点头部的样式 */
+.navbar-default {
+  background-color: #fff;
+  border: none;
+}
+.navbar-nav li:hover a {
+  background: #b1ec0c;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-nav li a {
+    font-size: 1.1em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-nav li a {
+    font-size: 1.5em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+/* 
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        font-size: 1.5em;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+} */
+@media screen and (max-width: 800px) {
+  .navbar-toggle {
+    margin-top: 26px!important;
+  }
+}
+/* 联系我们 */
+.hg-contact {
+  background: url(../images/beijing.png) no-repeat;
+  background-size: cover;
+}
+.hg-contact .hg-contact-item {
+  background-color: #fff;
+}
+@media (max-width: 768px) {
+  .hg-contact .hg-contact-item {
+    margin: 30px 10px;
+    padding: 50px 0;
+  }
+}
+@media (min-width: 768px) {
+  .hg-contact .hg-contact-item {
+    margin: 60px auto;
+    padding: 60px 0;
+  }
+}
+@media (min-width: 992px) {
+  .hg-contact .hg-contact-item {
+    margin: 100px auto;
+    padding: 80px 0;
+  }
+}
+.hg-contact .hg-contact-item span {
+  font-size: 4em;
+  color: #59bcdb;
+  margin-bottom: 0.8em;
+}
+.hg-contact .hg-contact-item p {
+  font-size: 1.1em;
+}
+/* 站点底部样式 */
+.hg-footer {
+  padding: 0 0 20px 0;
+  background-color: #383b61;
+}
+.hg-footer .hg-footer-link h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+}
+.hg-footer .hg-footer-link ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hg-footer .hg-footer-link ul li {
+  padding: 4px 0;
+}
+.hg-footer .hg-footer-link ul li a {
+  font-size: 0.875em;
+  color: #fff;
+}

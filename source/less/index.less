@@ -1,0 +1,166 @@
+
+/* 应用 */
+
+@media (max-width:767px) {
+    .application {
+        .container {
+            padding-right: 0;
+            padding-left: 0;
+            margin: 0;
+            .application-item {
+                border: none !important;
+                border-bottom: 1px solid #ccc !important;
+                .row {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+.application {
+    .container {
+        .application-subit {
+            padding-left: 0;
+            padding-right: 0;
+            .application-item {
+                border: 1px solid #ccc;
+                text-align: center;
+                position: relative;
+                span {
+                    color: #59bcdb;
+                    font-size: 3.2em;
+                    margin: 20px;
+                }
+                p {
+                    margin-top: 2em;
+                    font-size: 1.2em;
+                }
+                .borbot {
+                    border: 5px solid #59bcdb;
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                }
+                &:hover .borbot {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+/* 关于我们 */
+.about-us {
+    .about-item {
+        margin: 50px auto;
+        h1 {
+            line-height: 2em;
+        }
+        h4 {
+            line-height: 2em;
+        }
+    }
+}
+
+/* 我们的服务 */
+
+.hg-service {
+    background-color: #fff;
+    text-align: center;
+
+    h1 {
+        margin: 50px 0;
+        @media (min-width:992px) and (max-width:1200px){
+            margin: 50px auto;
+        }
+
+    }
+ 
+    .hg-service-item {
+        background-color: #fff;
+        h3 {
+            font-size: 1.25em;
+        }
+        p {
+            text-align: left;
+        }
+    }
+}
+
+/* 服务与支持 */
+
+.support {
+    margin: 100px auto;
+    @media (max-width:768px) {
+        margin: 50px auto;
+      }
+      img {
+        @media (min-width:992px) and (max-width:1200px){
+            margin-top: 50px;
+        }
+      }
+    .support-item {
+        .support-logo {
+            span {
+                margin: 30px auto;
+                @media (max-width:768px) {
+                  margin-left: 0;
+                }
+                @media (min-width:768px) {
+                    margin-left: 50px;
+                }
+                @media (min-width:992px) {
+                    margin-left: 0;
+                }
+                color: red;
+                font-size: 2.8em;
+                border: 4px solid red;
+                padding: 4px;
+            }
+        }
+        .support-cd {
+            @media (min-width:768px) {
+                padding-right: 50px;
+            }
+            @media (min-width:992px) {
+                padding-right: 20px;
+            }
+        }
+    }
+}
+
+/* 期待您的加入 */
+.expect {
+    color: #fff;
+    background-color: #000;
+    h1 {
+        @media (max-width:768px) {
+            margin: 50px auto 30px;
+        }
+        @media (min-width:768px) {
+            margin: 80px auto 30px;
+        }
+    }
+    h4 {
+        line-height: 1.5em;
+    }
+    .expect-item {
+        a {
+            color: #000;
+            background-color: #fff;
+            @media (max-width:768px) {
+                margin-bottom: 50px;
+            }
+            @media (min-width:768px) {
+                margin-bottom: 80px;
+            }
+            &:hover {
+                background-color: #337ab7;
+            }
+        }
+    }
+} 
